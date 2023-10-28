@@ -30,10 +30,25 @@
   flex: 1 1 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  display: flex;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.panel {
+  border: 1px solid gray;
+}
+
+.skill-check-panel-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensure it covers the full width */
+}
+
+.met-requirements {
+  color: red;
 }
 
 @keyframes App-logo-spin {
